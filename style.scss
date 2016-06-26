@@ -1,0 +1,124 @@
+.top-nav {
+  width: 100%;
+  min-width: 800px;
+  padding: 10px 0px;
+  background-color: #FCFCFC;
+
+  .col-width-3 {
+    img {
+      width: 25px;
+      height: auto;
+      cursor: pointer;
+      padding-left: 25px;
+    }
+
+    .img-group {
+      @extend .img-group;
+      min-width: 200px;
+      float: right;
+
+      img {
+        float: right;
+      }
+    }
+  }
+
+  input {
+    width: 80%;
+    height: 24px;
+    padding: 0px 5px;
+  }
+
+  span {
+    img {
+      height: auto;
+      width: 12px;
+      cursor: pointer;
+    }
+  }
+}
+
+.col-width-3 {
+  width: (1/4) * 100% - 1%;
+  display: inline-block;
+}
+
+.col-width-6 {
+  width: (1/2) * 100% - 1%;
+  display: inline-block;
+}
+
+hr {
+  color: #ECECEC;
+  background-color: #ECECEC;
+  width: 100%;
+}
+
+.content-box {
+  width: 100%;
+}
+
+.col-width-2 {
+  width: floor((1/6) * 100) * 1% - 1%;
+  display: inline-block;
+  padding: 5px 1px;
+}
+
+.col-width-10 {
+  width: floor((5/6) * 100) * 1% - 1%;
+  display: inline-block;
+  padding: 5px 1px;
+}
+
+.mail-options {
+  @extend .col-width-2;
+  min-width: 192px;
+  border-right: 2px solid #ECECEC;
+}
+
+.mail-contents {
+  @extend .col-width-10;
+  position: absolute;
+}
+
+.mail-element {
+  width: 100%;
+  min-width: 320px;
+  padding: 5px 2px;
+}
+
+.img-group {
+  white-space: nowrap;
+  overflow   : hidden;
+  width      : 100%;
+
+  img {
+    width: 15px;
+    height: auto;
+  }
+}
+
+.mail-element-actions {
+  @extend .col-width-2;
+  padding: 5px 5px;
+  .img-group {
+    @extend .img-group;
+    padding-left: 20px;
+    min-width: 70px;
+  }
+}
+
+.mail-element-content {
+  @extend .col-width-10;
+  padding: 0px 5px;
+  position: absolute;
+  min-width: 600px;
+  span {
+    font-weight: bold;
+    padding-right: 25px;
+  }
+}
+
+.media-options-element {
+  padding: 5px 10px;
+}

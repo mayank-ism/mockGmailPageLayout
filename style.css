@@ -1,0 +1,86 @@
+.top-nav {
+  width: 100%;
+  min-width: 800px;
+  padding: 10px 0px;
+  background-color: #FCFCFC; }
+  .top-nav .col-width-3 img {
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+    padding-left: 25px; }
+  .top-nav .col-width-3 .img-group {
+    min-width: 200px;
+    float: right; }
+    .top-nav .col-width-3 .img-group img {
+      float: right; }
+  .top-nav input {
+    width: 80%;
+    height: 24px;
+    padding: 0px 5px; }
+  .top-nav span img {
+    height: auto;
+    width: 12px;
+    cursor: pointer; }
+
+.col-width-3 {
+  width: 24%;
+  display: inline-block; }
+
+.col-width-6 {
+  width: 49%;
+  display: inline-block; }
+
+hr {
+  color: #ECECEC;
+  background-color: #ECECEC;
+  width: 100%; }
+
+.content-box {
+  width: 100%; }
+
+.col-width-2, .mail-options, .mail-element-actions {
+  width: 15%;
+  display: inline-block;
+  padding: 5px 1px; }
+
+.col-width-10, .mail-contents, .mail-element-content {
+  width: 82%;
+  display: inline-block;
+  padding: 5px 1px; }
+
+.mail-options {
+  min-width: 192px;
+  border-right: 2px solid #ECECEC; }
+
+.mail-contents {
+  position: absolute; }
+
+.mail-element {
+  width: 100%;
+  min-width: 320px;
+  padding: 5px 2px; }
+
+.img-group, .top-nav .col-width-3 .img-group, .mail-element-actions .img-group {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%; }
+  .img-group img, .top-nav .col-width-3 .img-group img, .mail-element-actions .img-group img {
+    width: 15px;
+    height: auto; }
+
+.mail-element-actions {
+  padding: 5px 5px; }
+  .mail-element-actions .top-nav .col-width-3 .img-group, .top-nav .col-width-3 .mail-element-actions .img-group, .mail-element-actions .img-group {
+    padding-left: 20px;
+    min-width: 70px; }
+
+.mail-element-content {
+  padding: 0px 5px;
+  position: absolute;
+  min-width: 600px; }
+  .mail-element-content span {
+    font-weight: bold;
+    padding-right: 25px; }
+
+.media-options-element {
+  padding: 5px 10px; }
